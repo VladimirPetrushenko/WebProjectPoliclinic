@@ -1,0 +1,13 @@
+D:\C#\book\1\Project1\Project1\bin\Debug\Project1.exe.config
+D:\C#\book\1\Project1\Project1\bin\Debug\Project1.exe
+D:\C#\book\1\Project1\Project1\bin\Debug\Project1.pdb
+D:\C#\book\1\Project1\Project1\bin\Debug\EntityFramework.dll
+D:\C#\book\1\Project1\Project1\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\book\1\Project1\Project1\bin\Debug\EntityFramework.xml
+D:\C#\book\1\Project1\Project1\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\book\1\Project1\Project1\bin\Debug\ru\EntityFramework.resources.dll
+D:\C#\book\1\Project1\Project1\obj\Debug\Project1.csprojAssemblyReference.cache
+D:\C#\book\1\Project1\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache
+D:\C#\book\1\Project1\Project1\obj\Debug\Project1.csproj.CopyComplete
+D:\C#\book\1\Project1\Project1\obj\Debug\Project1.exe
+D:\C#\book\1\Project1\Project1\obj\Debug\Project1.pdb

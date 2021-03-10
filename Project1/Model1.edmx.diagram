@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="11c2159beb894fdfba827f382e6d8efc" Name="Diagram1">
+        <EntityTypeShape EntityType="EDMPoliclinicModel.Diagnosis" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDMPoliclinicModel.Doctor" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDMPoliclinicModel.MedicalCard" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDMPoliclinicModel.Patient" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDMPoliclinicModel.Qualification" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDMPoliclinicModel.Specialization" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="EDMPoliclinicModel.FK__MedicalCa__idDia__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="EDMPoliclinicModel.FK__Doctor__idQualif__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="EDMPoliclinicModel.FK__Doctor__idSpecia__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="EDMPoliclinicModel.FK__MedicalCa__idDoc__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="EDMPoliclinicModel.FK__MedicalCa__idPat__5CD6CB2B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
