@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\RepositoryForGithub\\WebProjectPoliclinic\\WebApplication\\WebApplication.csproj": {}
+  },
+  "projects": {
+    "D:\\RepositoryForGithub\\WebProjectPoliclinic\\Project1\\Project1.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\Project1\\Project1.csproj",
+        "projectName": "Project1",
+        "projectPath": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\Project1\\Project1.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\RepositoryForGithub\\WebProjectPoliclinic\\WebApplication\\WebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\WebApplication\\WebApplication.csproj",
+        "projectName": "WebApplication",
+        "projectPath": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\WebApplication\\WebApplication.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\WebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\RepositoryForGithub\\WebProjectPoliclinic\\Project1\\Project1.csproj": {
+                "projectPath": "D:\\RepositoryForGithub\\WebProjectPoliclinic\\Project1\\Project1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

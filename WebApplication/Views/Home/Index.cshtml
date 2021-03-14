@@ -1,0 +1,36 @@
+﻿@using Project1;
+@model List<MedicalCard>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Index Page</title>
+</head>
+<body>
+    <h1>Вывод таблицы MedicalCard на web-страницу</h1>
+    <table border="1">
+        <tr>
+            <td width="20">id</td>
+            <td width="170">Patient</td>
+            <td width="200">Doctor</td>
+            <td width="220">Diagnosis</td>
+            <td width="170">DateOfVisit</td>
+            <td width="250">ReaseachProtacol</td>
+            <td width="400">Recomendatein</td>
+            <td width="400">Conclusion</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.Patient.FirstName @item.Patient.LastName</td>
+                <td>@item.Doctor.FirstName @item.Doctor.LastName</td>
+                <td>@item.Diagnosis.Diagnosis1</td>
+                <td>@item.DateOfVisit</td>
+                <td>@item.ReaseachProtacol</td>
+                <td>@item.Recomendatein</td>
+                <td>@item.Conclusion</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
